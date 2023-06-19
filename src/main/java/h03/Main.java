@@ -15,6 +15,9 @@ public class Main {
     World.setDelay(200);
     World.setVisible(true);
     robotTests();
+    RobotWithInitialState test = new RobotWithInitialState(0, 0, Direction.UP, 1);
+    test.move();
+    test.turnLeft();
   }
 
   /**
