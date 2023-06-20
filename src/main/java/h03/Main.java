@@ -15,9 +15,8 @@ public class Main {
     World.setDelay(200);
     World.setVisible(true);
     robotTests();
-    RobotWithInitialState test = new RobotWithInitialState(0, 0, Direction.UP, 1);
-    test.move();
-    test.turnLeft();
+    RobotWithInitialState2 test = new RobotWithInitialState2(0, 0, Direction.UP, 10);
+    test.getRelativeNumberOfCoins();
   }
 
   /**
